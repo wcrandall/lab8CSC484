@@ -1,0 +1,22 @@
+f(x) = a * x**3 
+fit f(x) 'bruteForceEqualBruteForceEqualStringsExp2.txt' via a 
+plot f(x) with linespoints, 'bruteForceEqualBruteForceEqualStringsExp2.txt'
+f(x) = a * x ** 2 
+fit f(x) 'EqualStringsExp2.txt' via a 
+plot f(x) with linespoints, 'EqualStringsExp2.txt' with linespoints 
+f(x) = a * x ** 2
+fit f(x) 'RandomStringsExp2.txt' via a
+plot f(x) with linespoints, 'RandomStringsExp2.txt' with linespoints
+f(x) = a * x ** 3
+fit f(x) 'RandomBruteStringsExp2.txt' via a 
+plot f(x) with linespoints, 'RandomBruteStringsExp2.txt' with linespoints 
+f(x) = a * x **2 
+fit f(x) 'RandomBruteStringsExp2.txt' via a 
+plot f(x) with linespoints, 'RandomBruteStringsExp2.txt' with linespoints
+f(x) = a * x ** 2
+fit f(x) 'WholeBookBrute2.txt' via a 
+plot F(x) with linespoints, 'WholeBookBrute2.txt' with linespoints 
+f(x) = a * x ** 2
+fit f(x) 'WholeBook2.txt' via a
+plot f(x) with linespoints, 'WholeBook2.txt' with linespoints 
+

@@ -1,0 +1,60 @@
+
+
+*******************************************************************************
+Wed Dec 18 16:03:23 2019
+
+
+FIT:    data read from 'dynamic0.txt'
+        format = z
+        #datapoints = 17
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * ((x**2) * (2**x))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 5.0030629512e+19   0.00e+00  1.14e+08    1.000000e+00
+   3 1.6966889135e+17  -3.13e-02  1.14e+05    1.602929e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.69669e+17
+rel. change during last iteration : -3.13476e-07
+
+degrees of freedom    (FIT_NDF)                        : 16
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.02977e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.06043e+16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 16.0293          +/- 0.2192       (1.367%)
+
+
+*******************************************************************************
+Wed Dec 18 16:24:34 2019
+
+
+FIT:    data read from 'dynamic0.txt'
+        format = z
+        #datapoints = 17
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * ((x**2) * (2**x))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 5.0030629512e+19   0.00e+00  1.14e+08    1.000000e+00
+   3 1.6966889135e+17  -3.13e-02  1.14e+05    1.602929e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.69669e+17
+rel. change during last iteration : -3.13476e-07
+
+degrees of freedom    (FIT_NDF)                        : 16
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.02977e+08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.06043e+16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 16.0293          +/- 0.2192       (1.367%)

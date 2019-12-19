@@ -1,0 +1,169 @@
+
+
+*******************************************************************************
+Wed Dec 18 13:42:05 2019
+
+
+FIT:    data read from 'brute2.txt'
+        format = z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * x!
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Dec 18 13:43:18 2019
+
+
+FIT:    data read from 'brute2.txt'
+        format = z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * x!
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Dec 18 13:46:21 2019
+
+
+FIT:    data read from 'brute2.txt'
+        format = z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fac(x)
+	fac(x) = (int(x)==0) ? 1.0 : int(x) * fac(int(x)-1.0)
+	[too many nested (or recursive) function definitions (max=20)]
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 1.3333353178e+11   0.00e+00  0.00e+00    1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Dec 18 14:00:58 2019
+
+
+FIT:    data read from 'brute0.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: fac(x)
+	fac(x) = a * ((int(x)==0) ? 1.0 : int(x) * fac(int(x)-1.0))
+	[too many nested (or recursive) function definitions (max=20)]
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 3.8128010314e+18   0.00e+00  1.71e+08    1.000000e+00
+   6 1.0933359615e+15  -1.66e-02  1.71e+03    1.384962e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.09334e+15
+rel. change during last iteration : -1.66468e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.24976e+07
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.56191e+14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.38496          +/- 0.0007203    (0.05201%)
+
+
+*******************************************************************************
+Wed Dec 18 14:07:38 2019
+
+
+FIT:    data read from 'brute0.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * gamma(x+1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 3.7527814480e+18   0.00e+00  1.96e+07    1.384962e+00
+   4 3.1590413137e+14  -3.82e-09  1.96e+03    4.971280e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3.15904e+14
+rel. change during last iteration : -3.81841e-14
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.71782e+06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.51292e+13
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 49.7128          +/- 0.1676       (0.3371%)
+
+
+*******************************************************************************
+Wed Dec 18 14:41:22 2019
+
+
+FIT:    data read from 'brute2.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * gamma(x+1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 4.0764056764e+18   0.00e+00  1.42e+07    1.000000e+00
+   4 2.2487751732e+14  -5.61e-09  1.42e+03    5.136928e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.24878e+14
+rel. change during last iteration : -5.61417e-14
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.66792e+06
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.21254e+13
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 51.3693          +/- 0.1414       (0.2753%)
+
+
+*******************************************************************************
+Wed Dec 18 15:30:32 2019
+
+
+FIT:    data read from 'brute2.txt'
+        format = z
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a * gamma(x+1)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a            
+   0 4.8754858079e+18   0.00e+00  1.42e+07    1.000000e+00
+   4 2.1255740840e+12  -6.87e-07  1.42e+03    5.608684e+01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2.12557e+12
+rel. change during last iteration : -6.86843e-12
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 551048
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.03653e+11
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 56.0868          +/- 0.01375      (0.02451%)
